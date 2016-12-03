@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.varunkumar.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Red"
+        android:id="@+id/red"
+        android:background="#FF0000"
+        android:gravity="center"
+        />
+    <TextView
+        android:text="Orange"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/orange"
+        android:background="#FF7000"
+
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:layout_weight="1"
+        />
+        <TextView
+        android:text="Yellow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/yellow"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="#FFFF00"
+        android:layout_weight="1" />
+    <TextView
+        android:text="Green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/Green"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="#00FF00"
+        android:layout_weight="1" />
+    <TextView
+        android:text="Blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/Blue"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="#0000FF"
+        android:layout_weight="1" />
+    <TextView
+        android:text="indigo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/indigo"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="#4B0082"
+        android:layout_weight="1" />
+    <TextView
+        android:text="Violet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/Violet"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="#9400D3"
+        android:layout_weight="1" />
+    </LinearLayout>
+
+
